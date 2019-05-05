@@ -4,7 +4,7 @@ Play this javascript themed word guess game in your Command-line Interface conso
 
 ## NPM Dependencies
 - Node Package manager: in the console, run npm init
-- Require Module: in the console, run npm install require
+- NPM Require Module
 
 ## File Structure
 - index.js: game logic file and primary gameplay module
