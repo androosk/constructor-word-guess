@@ -9,7 +9,6 @@ function WORD(allTheLetters) {
     this.characters.forEach(element =>{
       this.currentString += element.test() + ' '
     })
-    console.log(this.currentString)
   }
   this.evaluate = function(guess) {
     this.characters.forEach(element =>{
