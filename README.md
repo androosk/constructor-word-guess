@@ -14,9 +14,9 @@ Play this javascript themed word guess game in your Command-line Interface conso
 ## Gameplay
 - A word is chosen randomly from a list of ten words in an array
 - Once a word is in play, it is removed from the array
-- Player has ten attempts to guess the word
-- If player exceeds ten guesses before getting the word, player is given the option to try another word
-- If player guesses the word correctly, player is given the option to try another word
+- Player has ten attempts to guess the letters in the word
+- If player exceeds ten guesses before getting the letters in the word, player is given the option to try another word
+- If player guesses the letters in the word correctly, player is given the option to try another word
 - Wins and Losses score is kept
 - When word array is exhausted or player chooses to exit, game stats are displayed and game exits to command line
 - Images of gameplay below
