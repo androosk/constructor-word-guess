@@ -4,7 +4,7 @@ Play this javascript themed word guess game in your Command-line Interface conso
 
 ## NPM Dependencies
 - Node Package manager: in the console, run npm init
-- NPM Require Module
+- NPM Inquirer Module
 
 ## File Structure
 - index.js: game logic file and primary gameplay module
@@ -12,6 +12,7 @@ Play this javascript themed word guess game in your Command-line Interface conso
 - Letter.js: constructor used by Word.js to create an individual object for each letter in the current word. Each object contains testing functionality to evaluate the state of the letter and return that state to the Word constructor.
 
 ## Gameplay
+- In CLI, from directory of game files, run command: node index
 - A word is chosen randomly from a list of ten words in an array
 - Once a word is in play, it is removed from the array
 - Player has ten attempts to guess the letters in the word
